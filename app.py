@@ -6,7 +6,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 
 try:
-    model = load_model('C:\Users\Lakshmipathi Rao\Desktop\Stock\Stock market predictions model.keras')
+    model = load_model(r'C:\Users\Lakshmipathi Rao\Desktop\Stock\Stock market predictions model.keras')
 except Exception as e:
     st.error(f"Error loading the model: {e}")
 
